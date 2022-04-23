@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="note.css">
+</head>
+
+<body>
+    <div class="popup-box" id="popup-box">
+        <div class="popup">
+            <div class="content">
+                <header>
+                    <p id="headerTitle">ADD NEW NOTE</p>
+                    <i class="fa-solid fa-xmark" id="exit"></i>
+                </header>
+                <div class="popup-description" id="popup-description">
+                    <textarea id="addTxt"></textarea>
+                </div>
+                <button class="popup-btn" id="addBtn">ADD NOTE</button>
+            </div>
+        </div>
+    </div>
+    <div class="main" id="main">
+        <li id="newField">
+            <div class="new">
+                <i class="fa-solid fa-plus"></i>
+                <p>Add New Note</p>
+            </div>
+        </li>
+    </div>
+    <script src="note.js"></script>
+</body>
+
+</html>
