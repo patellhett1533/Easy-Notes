@@ -192,6 +192,7 @@ header i{
 @media (min-width:376px) and (max-width:414px){
     .main{
         grid-template-columns: repeat(auto-fill, 168px);
+        margin: 25px 20px;
     }
     .box{
         height: 170px; 
